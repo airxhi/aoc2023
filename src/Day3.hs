@@ -1,9 +1,7 @@
 module Day3 (day3) where
 
 import Data.List.Split ( splitOn )
-import Data.Char (isAlpha, digitToInt, intToDigit, isDigit)
-import Data.List.Utils ( replace )
-import Data.Bits.Utils (w82c)
+import Data.Char (isDigit)
 
 day3 :: String -> IO ()
 day3 inp = do
